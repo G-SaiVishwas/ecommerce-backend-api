@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: ecommerce
+  application:
+    name: ecommerce-api
+
+payment:
+  service:
+    url: http://localhost:8081

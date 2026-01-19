@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: mockpayment
+  application:
+    name: mock-payment-service
+
+ecommerce:
+  webhook:
+    url: http://localhost:8080/api/webhooks/payment
